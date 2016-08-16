@@ -2,4 +2,4 @@ nuid_plane0
 nuid_plane1
 nuid_plane2
 filler_cfg
-
+!*filler_cfg/*.cfg
