@@ -1458,4 +1458,9 @@ layer {
   top: "acc"
 }
 
-layer {                                                                                                                                                       name: "prob"                                                                                                                                                type: "Softmax"                                                                                                                                             bottom: "fc"                                                                                                                                                top: "prob"                                                                                                                                               }   
+layer {
+  name: "softmax"
+  type: "Softmax"
+  bottom: "fc"
+  top: "softmax"
+}

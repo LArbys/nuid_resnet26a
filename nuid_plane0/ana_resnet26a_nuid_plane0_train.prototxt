@@ -1457,8 +1457,8 @@ layer {
   top: "acc"
 }
 layer {
-  name: "prob"
+  name: "softmax"
   type: "Softmax"
   bottom: "fc"
-  top: "prob"
+  top: "softmax"
 }
