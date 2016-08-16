@@ -1,8 +1,10 @@
 #/nuid_plane0/*
 #/nuid_plane1/*
 #/nuid_plane2/*
-!/nuid_plane0/*.prototxt
-!/nuid_plane1/*.prototxt
-!/nuid_plane2/*.prototxt
-filler_cfg
-!*filler_cfg/*.cfg
+/nuid_plane*/*.txt
+/nuid_plane*/*.log
+/nuid_plane*/*.caffemodel
+/nuid_plane*/*.solverstate
+/nuid_plane*/*.h5
+#filler_cfg
+#!*filler_cfg/*.cfg
