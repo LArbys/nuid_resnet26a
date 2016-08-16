@@ -1,4 +1,4 @@
-name: "ResNet26aNuIDPlane2Ana"
+name: "ResNet26aNuIDPlane2Validation"
 
 ############ Data Layer ###########
 layer {
@@ -1444,7 +1444,7 @@ layer {
     decay_mult: 0
   }
   inner_product_param {
-    num_output: 5
+    num_output: 2
     weight_filler {
       type: "msra"
     }      
