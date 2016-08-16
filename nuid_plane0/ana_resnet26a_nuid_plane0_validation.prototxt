@@ -8,7 +8,7 @@ layer {
   top: "label"
 
   root_data_param {
-    batch_size: 1
+    batch_size: 9
     filler_config: "/data/shared/training/resnet26a_nuid/filler_cfg/validation_filler_plane0.cfg"
     filler_name: "DataFiller"
   }

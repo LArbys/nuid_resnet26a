@@ -1,4 +1,4 @@
-name: "ResNet26aNuIDPlane0Ana"
+name: "ResNet26aNuIDPlane0Validation"
 
 ############ Data Layer ###########
 layer {
@@ -8,7 +8,7 @@ layer {
   top: "label"
 
   root_data_param {
-    batch_size: 1
+    batch_size: 9
     filler_config: "/data/shared/training/resnet26a_nuid/filler_cfg/train_filler_plane0.cfg"
     filler_name: "DataFiller"
   }
@@ -38,7 +38,7 @@ layer {
 	name: "plane0_bn_conv1"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -95,7 +95,7 @@ layer {
 	name: "plane0_bn2a_branch1"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -133,7 +133,7 @@ layer {
 	name: "plane0_bn2a_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -178,7 +178,7 @@ layer {
 	name: "plane0_bn2a_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -231,7 +231,7 @@ layer {
 	name: "plane0_bn2b_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -276,7 +276,7 @@ layer {
 	name: "plane0_bn2b_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -328,7 +328,7 @@ layer {
 	name: "plane0_bn3a_branch1"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -366,7 +366,7 @@ layer {
 	name: "plane0_bn3a_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -411,7 +411,7 @@ layer {
 	name: "plane0_bn3a_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -464,7 +464,7 @@ layer {
 	name: "plane0_bn3b_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -509,7 +509,7 @@ layer {
 	name: "plane0_bn3b_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -562,7 +562,7 @@ layer {
 	name: "plane0_bn3c_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -607,7 +607,7 @@ layer {
 	name: "plane0_bn3c_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -660,7 +660,7 @@ layer {
 	name: "plane0_bn4a_branch1"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -698,7 +698,7 @@ layer {
 	name: "plane0_bn4a_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -743,7 +743,7 @@ layer {
 	name: "plane0_bn4a_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -796,7 +796,7 @@ layer {
 	name: "plane0_bn4b_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -841,7 +841,7 @@ layer {
 	name: "plane0_bn4b_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -894,7 +894,7 @@ layer {
 	name: "plane0_bn4c_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -939,7 +939,7 @@ layer {
 	name: "plane0_bn4c_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -992,7 +992,7 @@ layer {
 	name: "plane0_bn4d_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -1037,7 +1037,7 @@ layer {
 	name: "plane0_bn4d_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -1090,7 +1090,7 @@ layer {
 	name: "plane0_bn5a_branch1"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -1128,7 +1128,7 @@ layer {
 	name: "plane0_bn5a_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -1173,7 +1173,7 @@ layer {
 	name: "plane0_bn5a_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -1226,7 +1226,7 @@ layer {
 	name: "plane0_bn5b_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -1271,7 +1271,7 @@ layer {
 	name: "plane0_bn5b_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -1324,7 +1324,7 @@ layer {
 	name: "plane0_bn5c_branch2a"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 
@@ -1369,7 +1369,7 @@ layer {
 	name: "plane0_bn5c_branch2b"
 	type: "BatchNorm"
 	batch_norm_param {
-		use_global_stats: true
+		use_global_stats: false
 	}
 }
 

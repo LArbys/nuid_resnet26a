@@ -1,4 +1,4 @@
-name: "ResNet26aNuIDPlane1Ana"
+name: "ResNet26aNuIDPlane1Validation"
 
 ############ Data Layer ###########
 layer {
@@ -8,7 +8,7 @@ layer {
   top: "label"
 
   root_data_param {
-    batch_size: 18
+    batch_size: 9
     filler_config: "/data/shared/training/resnet26a_nuid/filler_cfg/train_filler_plane1.cfg"
     filler_name: "DataFiller"
   }
