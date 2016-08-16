@@ -1456,10 +1456,9 @@ layer {
   bottom: "label"
   top: "acc"
 }
-
 layer {
   name: "prob"
   type: "Softmax"
   bottom: "fc"
   top: "prob"
-}   
+}
